@@ -1,0 +1,322 @@
+@import url("bsstyle.css");
+/*@import url(http://fonts.googleapis.com/earlyaccess/notosansjapanese.css);*/ 
+
+.navbar {
+	background-color: #181818;
+}
+
+.navbar-toggler {
+	border: none;
+}
+
+.nav-link {
+	padding-right: 2px;
+	padding-left: 2px;
+	/*width: 107px;*/
+}
+
+.nav-link:hover{
+	border-top: 2px solid #f6df00;
+	color: #f6df00 !important;
+}
+
+.jumbotron {
+	background-color: #fff;
+	margin-top: 50px;
+}
+
+.centerLine {
+	position: relative;
+}
+
+.centerLine .line {
+	max-width: 100%;
+	height: 2px;
+	background-color: #000;
+	margin-top: -10px;
+	position: relative;
+	z-index: 1;
+}
+
+.centerLine .centerImg {
+	background-color: #fff;
+	padding-right: 20px;
+	padding-left: 20px;
+	position: relative;
+	z-index: 2;
+}
+
+.logos {
+	margin-top: 10px;
+}
+.mainHead {
+	margin-top: 30px;
+}
+
+.banner {
+	color: #fff;
+	margin-top: 50px;
+	margin-right: -10px;
+  margin-left: -10px;
+  padding: 10px;
+}
+
+.textYellow {
+	color: #f6df00;
+}
+
+.right {
+	position: relative;
+	overflow: hidden;
+}
+
+.diane {
+	position: relative;
+	z-index: 4;
+}
+
+.tomo {
+	position: absolute;
+	z-index: 1;
+}
+
+/*.triangle{
+		z-index: 20;
+    max-width: 100%;
+    height: 0;
+    padding-top: 10%;
+    overflow: hidden;
+}
+.triangle:after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    margin-top:-500px;
+    
+    border-top: 500px solid transparent;
+    border-right: 500px solid #4679BD;
+}*/
+.triBox {
+	/*overflow: hidden;*/
+
+}
+
+.triangle {
+	position: absolute;
+	bottom: 0px;
+	z-index: 0;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-color: transparent transparent #ffff00 transparent;
+}
+
+.titleText {
+	position: absolute;
+	z-index: 5;
+}
+
+.about {
+	margin-top: -20px;
+}
+
+.yellowBg {
+	background-color: #f6df00;
+	display: inline-block;
+	padding: 2px 3px;
+}
+
+.blackBg h3 {
+	background-color: #181818;
+	color: #fff;
+	display: inline-block;
+	padding: 2px 3px;
+}
+
+#about {
+	position: relative;
+}
+
+.bgImg {
+	position: absolute;
+	z-index: -1;
+}
+
+.groupCircles{
+	position: relative; 
+}
+
+.cir{
+	position: relative;
+	z-index: 3;
+	float: left;
+}
+
+.yellow{
+	background-color: #f6df00;
+}
+
+.yellowLine{
+	background-color: #f6df00;
+	height: 10px;
+	position: absolute;
+	z-index: 0;
+}
+
+.bannerGroup{
+	position: relative;
+}
+
+.bannerBox{
+	position: relative;
+}
+
+.bannerImg{
+	position: relative;
+	z-index: 3;
+}
+
+.yellowBox{
+	background-color: #f6df00;
+	position: absolute;
+	z-index: 0;
+}
+
+.reasonImg{
+	position: relative;
+	z-index: 2;
+}
+
+.bannerText{
+	position: absolute;
+	z-index: 4;
+}
+
+.whyGroup{
+	margin-top: 20px;
+}
+
+.whiteBg h3{
+	display: inline-block;
+	background-color: #fff;
+	padding: 2px 3px;
+	font-weight: bold;
+}
+
+.whiteBg{
+	display: inline-block;
+	background-color: #fff;
+	padding: 2px 3px;
+	font-weight: bold;
+}
+
+.reaNum{
+	color: #f6df00;
+	font-size: 5rem;
+	/*font-weight: bold;*/
+	font-style: italic;
+}
+
+.reaTitle{
+	font-weight: bold;
+}
+
+.reasonContent a{
+	color: #000;
+}
+
+.reasonContent a:hover{
+	color: #f6df00;
+}
+
+.grayBg{
+	background-color: lightgray;
+}
+
+.reasonGroup2 .reasonLeft{
+	position: relative;
+	z-index: 3;
+}
+
+.reasonGroup3 .reasonLeft{
+	position: relative;
+	z-index: 3;
+}
+
+.reasonGroup2 .grayBg{
+	position: relative;
+	z-index: 0;
+}
+
+.reasonGroup3 .grayBg{
+	position: relative;
+	z-index: 0;
+	padding-bottom: 10px;
+}
+
+.nostyle{
+	list-style-type: none;
+	padding-left: 0px;
+}
+
+.colored{
+	background-color: #f6df00;
+}
+
+.lightGray{
+	background-color: #f8f8f8;
+}
+
+.darkGray{
+	background-color: #ddd;
+}
+
+.bannergold{
+	position: relative;
+}
+
+.bannertext{
+	position: absolute;
+	color: #ffffff;
+	top: 30%;
+}
+.bannertext .btn-gold{
+	background:#f6df00;
+}
+.bannertext .btn-gold a{
+    border: 1px solid #000;
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;  
+} 
+
+/* english x internship schedule */
+.engtitle{
+	background-color: #000;
+	color: #fff;
+}
+
+.tableyellow{
+	box-shadow: 3em 4.8em #f6df00;
+}
+.internyellow{
+	box-shadow: 3em 2em #f6df00;
+}
+.engship .table{
+	position: relative;
+}
+
+.engship .table tr.last{
+	background: transparent !important;
+}
+.engship .table>tbody>tr>td{
+	border-top: 0px;
+}
+.engship .table>tbody>tr>td:nth-child(3){
+	font-weight: bold;
+}
+.engship small.text-muted{ 
+	margin-top: 3.5em;
+    margin-right: -58px;
+}
